@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>Silk.Data.SQL.ProvidersBundle</id>
+		<version>0.1.2.2</version>
+		<authors>John Carruthers</authors>
+		<owners>John Carruthers</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectUrl>https://github.com/SilkStack/Silk.Data.SQL.ProvidersBundle/</projectUrl>
+		<copyright>John Carruthers 2018</copyright>
+		<description>Silk.Data.SQL providers bundle, includes Sqlite3, Postgresql, MySQL/MariaDB and SQL Server support.</description>
+		<dependencies>
+			<dependency id="Silk.Data.SQL.SqlServer" version="[0.1.2.2]" />
+			<dependency id="Silk.Data.SQL.MySQL" version="[0.1.2.2]" />
+			<dependency id="Silk.Data.SQL.Postgresql" version="[0.1.2.2]" />
+			<dependency id="Silk.Data.SQL.SQLite3" version="[0.1.2.2]" />
+		</dependencies>
+	</metadata>
+</package>
